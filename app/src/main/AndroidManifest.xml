@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.grozziie.atcproject">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <uses-feature android:name="android.hardware.usb.host" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.BLUETOOTH_CONNECT" />
+    <uses-permission android:name="android.permission.BLUETOOTH_SCAN" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:exported="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".TransferHistory"
+            android:parentActivityName=".SendMyDarling"></activity>
+        <activity android:name=".ReceiveHistory"
+            android:parentActivityName=".SendMyDarling"/>
+        <activity android:name=".UpdatePinActivity"
+            android:parentActivityName=".ProfileActivity"/>
+        <activity android:name=".PaymentActivity"
+            android:parentActivityName=".HomeACTIVITY"/>
+        <activity android:name=".Video1Activity"
+            android:parentActivityName=".HomeACTIVITY"/>
+        <activity android:name=".PackagesListActivity"
+            android:parentActivityName=".HomeACTIVITY"/>
+        <activity android:name=".ConfromActivity"
+            android:parentActivityName=".HomeACTIVITY"/>
+        <activity android:name=".BalanceDetailsActivity"
+            android:parentActivityName=".HomeACTIVITY"/>
+        <activity android:name=".SendMyDarling"
+            android:parentActivityName=".HomeACTIVITY"/>
+        <activity android:name=".NotificationActivity"
+            android:parentActivityName=".HomeACTIVITY"/>
+        <activity
+            android:name=".SettingsActivity"
+            android:parentActivityName=".HomeACTIVITY"
+            android:label="@string/title_activity_settings" />
+        <activity android:name=".OrderHistoryActivity"
+            android:parentActivityName=".HomeACTIVITY"/>
+        <activity android:name=".CartActivity"
+            android:parentActivityName=".HomeACTIVITY"/>
+        <activity android:name=".ProfileActivity"
+            android:parentActivityName=".HomeACTIVITY"/>
+        <activity android:name=".Register2"
+            android:parentActivityName=".LoginActivity"/>
+        <activity
+            android:name=".LoginActivity"
+            android:parentActivityName=".MainActivity" />
+        <activity android:name=".HomeACTIVITY" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

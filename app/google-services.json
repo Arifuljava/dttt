@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "895745623856",
+    "firebase_url": "https://kprojrct-default-rtdb.europe-west1.firebasedatabase.app",
+    "project_id": "kprojrct",
+    "storage_bucket": "kprojrct.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:895745623856:android:5afc39ede9a65791c4eaf5",
+        "android_client_info": {
+          "package_name": "com.grozziie.atcproject"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "895745623856-ptepvsvdcj3317hm1106feu5lpv1vr0p.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFMbTSY_IdJGz3fGcsOcubpM-b_SbSkkQ"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "895745623856-ptepvsvdcj3317hm1106feu5lpv1vr0p.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
